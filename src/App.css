@@ -9,11 +9,33 @@ h3 {
 .box {
   background-color: #222;
   width: 500px;
-  height: 500px;
+  height: 530px;
   margin: auto;
   margin-bottom: auto;
   border: 1px solid #000;
   border-radius: 9px;
+}
+
+.message {
+  border: 2px solid #222;
+  border-radius: 9px;
+  font-size: 12px;
+  font-family: Arial;
+  font-style: bold;
+  margin: 10px 20px 5px 20px;
+  padding: 7px;
+  background-color: dimgray;
+}
+
+.msg-info {
+  font-family: Arial;
+  font-size: 10px;
+  opacity: 50%;
+}
+
+.me-auto {
+  margin: 10px 20px 5px 20px;
+  padding: 5px;
 }
 
 .App-logo {
